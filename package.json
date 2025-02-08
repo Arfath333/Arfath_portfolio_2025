@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build:css": "npx postcss src/index.css -o dist/output.css",
-    "build": "npm run build:css && ...other build steps...",
+  "build": "npm run build:css && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
